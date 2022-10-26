@@ -1,0 +1,27 @@
+{
+    "name": "husky",
+    "version": "0.0.1",
+    "description": "learning husky",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format" : "npx prettier --write .",
+        "check-format" : "npx prettier --check ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EmilBacklund/workflow-husky.git"
+    },
+    "keywords": [
+        "husky"
+    ],
+    "author": "emil backlund emil_backi_@hotmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/EmilBacklund/workflow-husky/issues"
+    },
+    "homepage": "https://github.com/EmilBacklund/workflow-husky#readme",
+    "devDependencies": {
+        "prettier": "^2.7.1"
+    }
+}
